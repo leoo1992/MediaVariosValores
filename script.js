@@ -79,7 +79,6 @@ function aumentarForm() {
           <input placeholder="Insira uma nota" type="number" step="1" class="form-control nota" id="nota" required>
         </div>
         <button type="button" class="btn btn-danger" onclick="excluirForm()">x</button>
-        <span class="m-1">Excluir</span>
       </div>
     `;
     container.insertBefore(form, container.lastElementChild);
