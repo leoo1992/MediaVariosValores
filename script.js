@@ -76,7 +76,7 @@ function aumentarForm() {
     form.innerHTML = `
       <div class="flex-row form-group d-flex align-items-center justify-content-center">
         <div class="col-8 text-center">
-          <input placeholder="Insira uma nota" type="number" step="1" class="form-control nota" id="nota" required>
+          <input placeholder="Insira uma valor" type="number" step="1" class="form-control nota" id="nota" required>
         </div>
         <button type="button" class="btn btn-danger" onclick="excluirForm()">x</button>
       </div>
