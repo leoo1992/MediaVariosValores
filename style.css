@@ -1,14 +1,45 @@
 body {
-    overflow-y: visible;
-    overflow-x: hidden;
-    padding: 25px;
-    background-color: aliceblue;
-  }
-  .calculadora-row {
-    height: 100vh;
-  }
-  .calculadora-container,
-  .form-control {
-    border: 1px solid black;
-  }
+  overflow-y: visible;
+  overflow-x: hidden;
+  padding: 25px;
+  background-image: url("./subtle-prism.svg"); 
+  background-attachment: fixed;
+  background-size: cover;
+  font-weight: 900;
+}
+.calculadora-row {
+  height: 100vh;
+  color: darkred;
+  border: 3px solid darkred;
+}
+
+.calculadora-container,
+.form-control, .btn {
+  border: 2px solid darkred;
+  box-shadow: 0.5px 0.5px rgb(0, 0, 0);
+  border-radius: 15px;
+  font-weight: 700;
+  
+}
+
+.form-control{
+  color: darkred;
+  font-weight: 900;
+  text-align: center;
+}
+
+.modal-content{
+  box-shadow: 0.5px 0.5px rgb(0, 0, 0);
+  border-radius: 15px;
+  font-weight: 700;
+  border: 2px solid black;
+}
+
+.btn-close{
+  background-color: red;
+  color: white;
+  border: 2px solid black;
+}
+
+
   
